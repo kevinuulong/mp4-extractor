@@ -1,0 +1,24 @@
+{
+  "name": "mp4-extractor",
+  "version": "1.0.0",
+  "description": "Extract MP4's",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kevinuulong/mp4-extractor.git"
+  },
+  "keywords": [],
+  "author": "kevinuulong",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kevinuulong/mp4-extractor/issues"
+  },
+  "homepage": "https://github.com/kevinuulong/mp4-extractor#readme",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "got": "^10.4.0"
+  }
+}
