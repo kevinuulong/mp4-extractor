@@ -1,8 +1,11 @@
 const cheerio = require('cheerio');
 const got = require('got');
+const argv = require('minimist')(process.argv.slice(2));
 
-// TODO: Make this link an argument
-const videoUrl= 'https://streamable.com/ip9rla';
+// Test URL: https://streamable.com/ip9rla
+// Sample Command: node index --src="https://streamable.com/ip9rla"
+
+const videoUrl = argv['src'];
 
 got(videoUrl).then(response => {
   const $ = cheerio.load(response.body);
